@@ -1,0 +1,10 @@
+# Tested with Python 3.14 and the versions below (any reasonably recent versions work).
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+matplotlib>=3.8
+
+# Only needed to (re)generate the artefacts, not to read them:
+jupyter>=1.0          # run the notebook
+nbconvert>=7.0        # execute the notebook from the command line
+fpdf2>=2.7            # rebuild the PDF report from report.md
